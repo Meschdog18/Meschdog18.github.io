@@ -1,0 +1,14 @@
+h1{
+
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid white;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+    
+}
+body{
+
+	background-image: url(Oldcomputer.jpg);
+	background-size: cover;
+}
