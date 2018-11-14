@@ -12,7 +12,9 @@ body{
 	
 	
 }
-img:hover{
+.image:hover{
 	
+  width: 200%;
+	height: 200%;
 	
 }
