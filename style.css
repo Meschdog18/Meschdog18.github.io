@@ -10,10 +10,10 @@ hh1{
 body{
 
 	background-image: url(Oldcomputer.jpg);
-	background-size: cover;
+	background-size: 500px;
 }
 body:hover{
 	
-background-size: 100px;	
+background-size: 760px;	
 	
 }
