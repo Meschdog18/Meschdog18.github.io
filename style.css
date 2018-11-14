@@ -12,8 +12,8 @@ body{
 	background-image: url(Oldcomputer.jpg);
 	background-size: cover;
 }
-h1:hover{
+body:hover{
 	
-size: 160;	
+background-size: 100px;	
 	
 }
