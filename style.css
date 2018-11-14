@@ -1,4 +1,4 @@
-h1{
+hh1{
 
 	font-family: fantasy;
 	font-size: 3em;
@@ -12,7 +12,7 @@ body{
 	background-image: url(Oldcomputer.jpg);
 	background-size: cover;
 }
-h1:Hover{
+h1:hover{
 	
 size: 160;	
 	
