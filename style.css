@@ -1,0 +1,36 @@
+h1.solid {outline-style: solid;}
+h1{
+	display:inline;
+	position: relative;
+	left: 250px;
+	font-size: 100px;
+	font-family: 'Acme', sans-serif;
+ border: 7px solid black;
+    outline-style: solid;
+
+}
+h1:hover{
+	font-style: italic;
+}
+body{
+	background-image: url("https://www.usrobotics.com/files/4214/6715/0881/Banner-US-Robotics-Home-Page.jpg");
+background-position: center;
+ background-size: cover;
+
+}
+
+#Main{
+	
+	font-size: 30px;
+}
+#Pic1{
+	position: relative;
+	top: 100px;
+	left: 700px;
+animation-iteration-count: 0;
+
+}
+#Pic1:hover{
+
+	animation-iteration-count: infinite;
+}
