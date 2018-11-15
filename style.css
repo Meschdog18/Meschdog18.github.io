@@ -1,19 +1,21 @@
 h1.solid {outline-style: solid;}
 h1{
+	display:inline;
+	position: relative;
+	left: 250px;
 	font-size: 100px;
-	font-family: "Comic Sans MS",Verdana;
-
+	font-family: 'Acme', sans-serif;
  border: 7px solid black;
     outline-style: solid;
-    outline-color: red;
-animation-iteration-count: 0;
+
 }
 h1:hover{
-    animation-iteration-count: infinite;
 	font-style: italic;
 }
 body{
-	background-image: url("https://ichef.bbci.co.uk/news/660/cpsprodpb/1999/production/_92935560_robot976.jpg");
+	background-image: url("https://www.usrobotics.com/files/4214/6715/0881/Banner-US-Robotics-Home-Page.jpg");
+background-position: center;
+ background-size: cover;
 
 }
 
@@ -23,6 +25,12 @@ body{
 }
 #Pic1{
 	position: relative;
+	top: 100px;
 	left: 700px;
+animation-iteration-count: 0;
 
+}
+#Pic1:hover{
+
+	animation-iteration-count: infinite;
 }
