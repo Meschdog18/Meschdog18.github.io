@@ -1,20 +1,28 @@
+h1.solid {outline-style: solid;}
 h1{
+	font-size: 100px;
+	font-family: "Comic Sans MS",Verdana;
 
-	font-family: fantasy;
-	font-size: 3em;
-	border-bottom: 2px solid white;
-	text-align: center;
-	box-shadow: 4px 4px 5px #888888;
-    
+ border: 7px solid black;
+    outline-style: solid;
+    outline-color: red;
+animation-iteration-count: 0;
+}
+h1:hover{
+    animation-iteration-count: infinite;
+	font-style: italic;
 }
 body{
+	background-image: url("https://ichef.bbci.co.uk/news/660/cpsprodpb/1999/production/_92935560_robot976.jpg");
 
-	
-	
 }
-p:hover{
+
+#Main{
 	
-  width: 111%;
-	height: 111%;
-	
+	font-size: 30px;
+}
+#Pic1{
+	position: relative;
+	left: 700px;
+
 }
