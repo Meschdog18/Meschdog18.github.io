@@ -8,6 +8,7 @@ h1{
  border: 7px solid black;
     outline-style: solid;
 	flex: 1;
+	display: flex;
 }
 h1:hover{
 	font-style: italic;
