@@ -16,11 +16,11 @@ body{
 	background-image: url("https://www.usrobotics.com/files/4214/6715/0881/Banner-US-Robotics-Home-Page.jpg");
 background-position: center;
  background-size: cover;
-
+flex: 1;
 }
 
 #Main{
-	
+	flex: 1;
 	font-size: 30px;
 }
 #Pic1{
