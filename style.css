@@ -1,6 +1,6 @@
 h1.solid {outline-style: solid;}
 h1{
-	display: flex;
+	display: inline;
 	position: relative;
 	left: 250px;
 	font-size: 100px;
