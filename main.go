@@ -21,10 +21,11 @@ func main(){
 }
 func handleRequests(){
 	http.HandleFunc("/", incomingPOST)
-	log.Fatal(http.ListenAndServe("https://github.com/Meschdog18.github.io", nil))
+	http.ListenAndServe(":8080",nil)
 }
 func incomingPOST(w http.ResponseWriter, r *http.Request){
-	 var data dat
+	fmt.Println(w, "file upload endpoint found")
+	var data dat
 	
 	switch r.Method{
 	case "POST":
