@@ -20,7 +20,7 @@ func main(){
 	handleRequests()
 }
 func handleRequests(){
-	http.HandleFunc("/", incomingPOST)
+	http.HandleFunc("/te", incomingPOST)
 	http.ListenAndServe(":8080",nil)
 }
 func incomingPOST(w http.ResponseWriter, r *http.Request){
