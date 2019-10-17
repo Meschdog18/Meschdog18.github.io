@@ -21,7 +21,7 @@ func main(){
 }
 func handleRequests(){
 	http.HandleFunc("/", incomingPOST)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":80", nil))
 }
 func incomingPOST(w http.ResponseWriter, r *http.Request){
 	 var data dat
